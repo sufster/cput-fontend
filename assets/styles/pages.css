@@ -1,0 +1,69 @@
+#cape{
+    height: 100vh;
+    padding: 3%;
+    color: white;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    width: 100%;
+}
+.cape-img{
+    width: 50%;
+    height: 50%;
+}
+.heading{
+    justify-content: center;
+  position: relative;
+  display: flex;
+  font-size: 60px;
+  gap: 20px;
+}
+
+.card{
+    background-color: #0d0c0c;
+    color: #fff;
+    border: 2px solid #161414;
+    border-radius: 2%;
+}
+
+.cape{
+    background-image: url("assets/img/cape town.avif");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.red{
+    color: red;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: red;
+}
+
+.explore {
+  justify-content: center;
+  display: flex;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+#joburg {
+  height: 100vh;
+  padding: 3%;
+  background: black;
+  color: white;
+}
+
+#durban{
+    height: 100vh;
+  padding: 3%;
+  background: black;
+  color: white;
+}

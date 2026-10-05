@@ -1,0 +1,60 @@
+.page{
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+}
+
+.img-left {
+  width: 37%;
+}
+
+.img-mid {
+  width: 30%;
+}
+
+.img-right {
+  width: 30%;
+}
+
+img {
+  height: 100vh;
+}
+.opener{
+  font-size: 50px;
+  color: #fff;
+  font-family: "Twinkle Star", cursive;
+  position: relative;
+  top: 15%;
+}
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: -28%;
+  justify-content: center;
+  left: -50%;
+}
+
+.arrow {
+  color: rgb(238, 235, 235);
+  font-size: 150px;
+  animation: flash 5s infinite;
+}
+
+@keyframes flash {
+    0%{color: white;}
+    25%{color: #80B9C3;}
+    50%{color: #287C8E;}
+    75%{color: #80B9C3;}
+    100%{color: white;}
+}
+.arrow:hover{
+    text-shadow: 0 0 5px #287C8E;
+    cursor: pointer;
+    transform: scale(1.15);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
